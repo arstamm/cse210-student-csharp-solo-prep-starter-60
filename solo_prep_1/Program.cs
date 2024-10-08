@@ -6,9 +6,14 @@ namespace solo_prep_1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("This is solo prep 1");
+            // Solo Prep 1
+            Console.Write("What is your first name? ");
+            string first_name = Console.ReadLine();
 
-            // Write your code here
+            Console.Write("What is your last name? ");
+            string last_name = Console.ReadLine();
+
+            Console.WriteLine($"Your name is {last_name}, {first_name} {last_name}.");
         }
     }
 }
